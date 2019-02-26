@@ -247,7 +247,7 @@ function findwinner(){
 			return true;
 		}	
 		if(sum==6){
-			alert("COMP WINS")
+			alert("Bot Wins")
 			return true;
 		}
 	}
@@ -267,25 +267,25 @@ function findwinner(){
 			return true;
 		}	
 		if(sum==6){
-			alert("COMP WINS")
+			alert("Bot Wins")
 			return true;
 		}
 			
 	}
 	if(grid[0][0]==1 && grid[0][0]==grid[1][1] && grid[1][1]==grid[2][2]){
-		alert("Human WIns");
+		alert("Human Wins");
 		return true;
 	}
 	if(grid[0][0]==2 && grid[0][0]==grid[1][1] && grid[1][1]==grid[2][2]){
-		alert("Bot WIns");
+		alert("Bot Wins");
 		return true;
 	}
 	if(grid[0][2]==1 && grid[0][2]==grid[1][1] && grid[1][1]==grid[2][0]){
-		alert("Human WIns");
+		alert("Human Wins");
 		return true;
 	}
 	if(grid[0][2]==2 && grid[0][2]==grid[1][1] && grid[1][1]==grid[2][0]){
-		alert("Bot WIns");
+		alert("Bot Wins");
 		return true;
 	}
 }
